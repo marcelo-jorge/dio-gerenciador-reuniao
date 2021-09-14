@@ -17,7 +17,7 @@ public class BackendApplication {
 	@Bean
 	public OpenAPI customOpenAPI(){
 		return new OpenAPI().info(
-				new Info().title("Gerenciador de Sala de Reuniões")
+				new Info().title("Gerenciador de Room de Reuniões")
 				.version("1.0")
 				.termsOfService("http://swagger.io/terms")
 				.license( new License()

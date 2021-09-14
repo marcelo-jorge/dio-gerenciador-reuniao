@@ -23,7 +23,7 @@ export class AtualizarSalaComponent implements OnInit {
     this.id = this.route.snapshot.params['id'];
     this.salaService.getSala(this.id)
       .subscribe(data => {
-          console.log(data)
+          console.log(data);
           this.sala = data;
       },error => console.log(error));
   }

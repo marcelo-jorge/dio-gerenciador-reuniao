@@ -1,5 +1,4 @@
 import { SalaService } from './../sala.service';
-import { SalaService } from '../sala.service';
 import { Sala } from './../sala';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
@@ -28,8 +27,8 @@ export class CriarSalaComponent implements OnInit {
   save(){
     this.salaService.createSala(this.sala).subscribe(
       data => console.log(data),
-      erro => console.log(error)
-    );
+      error => console.log(error)
+      );
     this.sala = new Sala();
     this.gotoList();
   }

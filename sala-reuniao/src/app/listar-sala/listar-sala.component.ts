@@ -36,7 +36,7 @@ export class ListarSalaComponent implements OnInit {
   }
 
   detalheSala(id: number){
-    this.router.navigate(['detalhe', id]);
+    this.router.navigate(['detalhes', id]);
   }
 
   updateSala(id: number){

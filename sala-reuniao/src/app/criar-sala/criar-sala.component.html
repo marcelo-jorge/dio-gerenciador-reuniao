@@ -1,1 +1,30 @@
-<p>criar-sala works!</p>
+<h3>Criar Sala</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">nome</label>
+      <input type="text" class="form-control" id="nome" required [(ngModel)]="sala.nome" name="nome">
+    </div>
+
+    <div class="form-group">
+      <label for="name">data</label>
+      <input type="text" class="form-control" id="data" required [(ngModel)]="sala.data" name="data">
+    </div>
+
+    <div class="form-group">
+      <label for="name">horaInicio</label>
+      <input type="text" class="form-control" id="horaInicio" required [(ngModel)]="sala.horaInicio" name="horaInicio">
+    </div>
+
+    <div class="form-group">
+        <label for="name">horaFim</label>
+        <input type="text" class="form-control" id="horaFim" required [(ngModel)]="sala.horaFim" name="horaFim">
+      </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <button class="btn btn-success" (click)="createSala()">Add</button> -->
+</div>

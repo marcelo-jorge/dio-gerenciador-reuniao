@@ -1,4 +1,4 @@
-# Gerenciamento de Pessoas
+# Gerenciamento Sala de Reunião
 
 ##### Desenvolvendo back-end de gerenciamento de sala de reuniões em API REST com Spring Boot e um front-end com Angular.
 
@@ -22,10 +22,12 @@ Finalizando projeto:
 
   * banco de dados: localhost:http://localhost:8081/h2
   * documentação: http://localhost:8081/swagger-ui.html
-  * Classe principal: http://localhost:8081/Sala
-
+  * Classe principal: http://localhost:8081/ap1/v1/rooms
+  * front: http://localhost:4200
+  
   Foram aplicados conceitos (de camada controller,repository, service, model, exception).
 
 
 
 Linkedin: https://www.linkedin.com/in/marcelo-bomfim-977b3a109/
+

@@ -1,5 +1,5 @@
 import { SalaService } from './../sala.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Sala } from '../sala';
 import { SalaService } from '../sala.service';
 import { ListarSalaComponent } from '../listar-sala/listar-sala.component';
